@@ -12,7 +12,7 @@ public class cla6 {
 			 System.out.println("succeeded");
 			 String surl="jdbc:oracle:thin:@localhost:1521:xe";
 			 String uname="SYSTEM";
-			 String pass="7035";
+			 String pass="1234";
 			 Connection con=DriverManager.getConnection(surl,uname,pass);
 			 System.out.println("succeeded");
 			 PreparedStatement stmt=con.prepareStatement("select * from emp");
